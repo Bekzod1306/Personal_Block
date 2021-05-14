@@ -1,0 +1,59 @@
+.add__post {
+  margin-bottom: 3rem;
+  box-shadow: 0 15px 25px rgba($black, 0.45);
+  background-color: $secondary;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 1.5rem 2rem;
+  &_form {
+    display: flex;
+  }
+  & textarea {
+    display: block;
+    width: 70%;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: $white;
+    border: none;
+    background: transparent;
+    resize: none;
+    &::placeholder {
+      color: #d2d2d2;
+    }
+  }
+  &_actions {
+  }
+}
+.add__post_file {
+  display: block;
+  width: 4.4rem;
+  height: 4.4rem;
+
+  background: url("../../images/add_photo.svg") #ebebeb center no-repeat;
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: none;
+  input {
+    cursor: pointer;
+    display: none;
+  }
+}
+.add__post_send {
+  display: block;
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: $blue;
+  border: none;
+}
